@@ -1,0 +1,513 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'koduka';
+    src: url('fonts/KozGoPr6N-Regular.otf') format('opentype');
+}
+
+
+body{
+    font-family: "koduka";
+}
+
+nav {
+    background-image: url(images/bg_white.png);
+    background-size: cover;
+    overflow: hidden;
+}
+
+nav .icon {
+    float: right;
+    padding: 9px 50px 3px 0px;
+}
+
+.icon img {
+    height: 45px;
+}
+
+.icon a {
+    height: 45px;
+}
+
+header img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+.btn {
+    width: 200px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FFA000;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#about {
+    background-image: url(images/bg_white.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#about h1 {
+    background-image: url(images/ribon1.png);
+    width: 630px;
+    height: 70px;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit- transform: translateX(-50%);
+}
+
+.about {
+    text-align: center;
+    width: 70%;
+    padding: 30px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 75px;
+}
+
+.about h4 {
+    font-size: 18px;
+}
+
+.about p {
+    width: 70%;
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+#about .btn {
+    margin: 100px auto 0;
+    position: relative;
+}
+
+#present {
+    background-image: url(images/bg_orange.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#present h1 {
+    background-image: url(images/ribon2.png);
+    width: 760px;
+    height: 90px;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 32px;
+    margin: 0 auto;
+}
+
+.rank {
+    width: 980px;
+    margin: 15px auto 0;
+}
+
+
+.pre_s p {
+    font-size: 12px;
+}
+
+.big {
+    clear: both;
+}
+
+.big .image {
+    width: 406px;
+    height: 406px;
+    float: left;
+}
+
+.big .pre_s {
+    width: 50%;
+    float: left;
+    padding: 40px 40px 0;
+}
+
+.big .premium {
+    width: 380px;
+    border: 13px #fff solid;
+    position: absolute;
+}
+
+.big .bana {
+    width: 120px;
+    position: relative;
+    top: -14px;
+    left: 14px;
+}
+
+.big .pre_s h2 {
+    font-size: 40px;
+}
+
+.big .pre_s h3 {
+    font-size: 22px;
+}
+
+.smalls {
+    clear: both;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.small {
+    overflow: hidden;
+    width: 470px;
+    float: left;
+}
+
+.small .pre_s h2 {
+    font-size: 29px;
+}
+
+.small .pre_s h3 {
+    font-size: 17px;
+}
+
+
+.small .image {
+    width: 240px;
+    height: 240px;
+    float: left;
+}
+
+.small .pre_s {
+    float: left;
+    width: 190px;
+    padding: 10px 10px 0;
+}
+
+.small .premium {
+    width: 220px;
+    border: 10px #fff solid;
+    position: absolute;
+}
+
+.small .bana {
+    width: 60px;
+    position: relative;
+    top: -7px;
+    left: 14px;
+}
+
+#present .btn {
+    margin: 50px auto 0;
+}
+
+#photo {
+    background-image: url(images/bg_white.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+}
+
+#photo h1 {
+    background-image: url(images/ribon3.png);
+    width: 580px;
+    height: 72px;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 27px;
+    margin: 0 auto;
+}
+
+.all {
+    overflow: hidden;
+    display: inline-block;
+    text-align: left;
+}
+
+.box {
+    float: left;
+}
+
+.toukou {
+    width: 200px;
+    background-color: #001D45;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    margin: 15px;
+}
+
+.toukou img {
+    width: 200px;
+}
+
+
+.toukou_d img {
+    width: 22px;
+    float: left;
+}
+
+.toukou_d p {
+    font-size: 12px;
+    float: left;
+    padding-left: 10px;
+    line-height: 22px;
+}
+
+.toukou_d {
+    padding: 5px 0;
+    overflow: hidden;
+}
+
+.toukou_p {
+    width: 200px;
+    font-size: 9px;
+    clear: both;
+}
+
+#way {
+    background-image: url(images/bg_blue.png);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#way h1 {
+    background-image: url(images/ribon4.png);
+    width: 485px;
+    height: 65px;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 33px;
+    margin: 0 auto;
+    color: #000;
+}
+
+#way .text {
+    padding-top: 50px;
+}
+
+.step {
+    display: inline-block;
+    text-align: left;
+}
+
+.step_d {
+    width: 290px;
+    float: left;
+}
+
+.step_d img {
+    width: 290px;
+    padding: 30px 0;
+}
+
+.yajirusi {
+    width: 17px;
+    float: left;
+    padding: 130px 30px 0;
+}
+
+#way .btn {
+    margin: 50px auto 0;
+}
+
+#info {
+    background-image: url(images/bg_white.png);
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#info h1 {
+    background-image: url(images/ribon4.png);
+    width: 485px;
+    height: 70px;
+    background-size: cover;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 27px;
+    margin: 0 auto;
+}
+
+#info ul {
+    width: 70%;
+    margin: 50px auto;
+}
+
+#info li {
+    list-style: none;
+    padding: 20px 0;
+    font-size: 12px;
+}
+
+.kiyaku li {
+    text-align: center;
+}
+
+#info .btn {
+    margin: 50px auto 0;
+}
+
+footer {
+    background-color: #786E64;
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.link {
+    padding-top: 20px;
+}
+
+.link a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer p {
+    font-size: 9px;
+    padding: 5px 0;
+}
+
+.logo {
+    width: 150px;
+    padding-top: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .box_last {
+        display: none;
+    }
+
+    .rank {
+        width: 700px;
+    }
+
+    .big .image {
+        width: 300px;
+        height: 300px;
+        float: left;
+    }
+
+    .big .pre_s {
+        width: 45%;
+        float: left;
+        padding: 40px 40px 0;
+    }
+
+    .big .premium {
+        width: 280px;
+        border: 10px #fff solid;
+        position: absolute;
+    }
+
+    .big .bana {
+        width: 95px;
+        position: relative;
+        top: -11px;
+        left: 11px;
+    }
+
+    .big .pre_s h2 {
+        font-size: 30px;
+    }
+
+    .big .pre_s h3 {
+        font-size: 18px;
+    }
+
+    .big .pre_s p {
+        font-size: 12px;
+    }
+
+    .smalls {
+        clear: both;
+        overflow: hidden;
+        padding-top: 50px;
+    }
+
+    .small {
+        overflow: hidden;
+        width: 343px;
+        float: left;
+    }
+
+    .small .pre_s h2 {
+        font-size: 20px;
+    }
+
+    .small .pre_s h3 {
+        font-size: 12px;
+    }
+
+    .small .pre_s p {
+        font-size: 10px;
+    }
+
+
+    .small .image {
+        width: 180px;
+        height: 180px;
+        float: left;
+    }
+
+    .small .pre_s {
+        float: left;
+        width: 145px;
+        padding: 5px 5px 0;
+    }
+
+    .small .premium {
+        width: 170px;
+        border: 5px #fff solid;
+        position: absolute;
+    }
+
+    .small .bana {
+        width: 30px;
+        position: relative;
+        top: -4px;
+        left: 10px;
+    }
+
+    .step_d {
+        width: 200px;
+        float: left;
+    }
+
+    .step_d img {
+        width: 200px;
+        padding: 30px 0;
+    }
+
+}
