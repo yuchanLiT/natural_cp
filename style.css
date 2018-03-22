@@ -13,6 +13,11 @@ body{
     font-family: "koduka";
 }
 
+a:hover{
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
 nav {
     background-image: url(images/bg_white.png);
     background-size: cover;
@@ -53,6 +58,7 @@ header img {
 
 .text {
     width: 70%;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: left;
 }
@@ -82,6 +88,7 @@ header img {
 .about {
     text-align: center;
     width: 70%;
+    max-width: 1000px;
     padding: 30px 0;
     background-color: #fff;
     border-radius: 5px;
@@ -357,6 +364,7 @@ header img {
 
 #info ul {
     width: 70%;
+    max-width: 1000px;
     margin: 50px auto;
 }
 
@@ -364,10 +372,6 @@ header img {
     list-style: none;
     padding: 20px 0;
     font-size: 12px;
-}
-
-.kiyaku li {
-    text-align: center;
 }
 
 #info .btn {
